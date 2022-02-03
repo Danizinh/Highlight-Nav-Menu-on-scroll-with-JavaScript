@@ -1,10 +1,9 @@
 count = 0
 opcao = ""
-
 from random import randint
 from time import sleep
 while opcao !="n":
-    computer = randint(10,10)
+    computer = randint(10,1000)
     print('-=-' * 20)
     print('VOU PENSAR EM UM NUMERO ENTRE 10 e 1000. TENTE ADIVINHAR...')
     print('-=-' * 20)
