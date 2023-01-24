@@ -5,15 +5,13 @@ from time import sleep
 while option !="n":
     computer = randint(10,1000)
     print('-=-' * 20)
-    print('I WILL THINK OF A NUMBER BETWEEN 10 AND 1000. TRY TO GUESS...')
+    print('VOU PENSAR EM UM NÚMERO ENTRE 10 E 1000. TENTE ADIVINHAR....')
     print('-=-' * 20)
-    jogador = int(input("WHAT NUMBER DID I THINK ABOUT?"))
+    jogador = int(input("EM QUE NÚMERO EU PENSEI?"))
     print("PROCESSING...")
     sleep(2)
     if jogador == computer:
-        print("WOOOOOOOOOOOOOOOO YOU MADE ME!")
+        print("WOOOOOOOOOOOOOOOO VOCÊ ME FEZ!")
     else:
-        print(f"WON! I THOUGHT ABOUT THE NUMBER {computer} AND NO {jogador}!")
-    opcao = str(input("DO YOU WANT TO TRY AGAIN [S/N]?"))
-
-
+        print(f"WON! EU PENSEI NO NÚMERO {computer} E NÃO{jogador}!")
+    opcao = str(input("VOCÊ QUER TENTAR DE NOVO [S/N] ?"))
